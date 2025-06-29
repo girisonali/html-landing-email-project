@@ -3,6 +3,7 @@ A responsive product landing page and HTML email template built with HTML and CS
 
 This project showcases a responsive **product landing page** and a compatible **HTML email template**, developed using **HTML**, **CSS**, and light **JavaScript**. It is built to demonstrate key skills aligned with digital marketing, web content delivery, and email design.
 
+Deployed at 👉 [codecamphere.netlify.app](https://codecamphere.netlify.app)
 
 ## 🚀 Project Highlights
 
