@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeCamp - Learn Web Development</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.jpg" alt="CodeCamp Logo" class="logo-img" />
+      <div class="logo-text">CodeCamp</div>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#signin">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Master Web Development</h1>
+      <p>HTML, CSS, and JavaScript in 21 days</p>
+      <button>Enroll Now</button>
+    </div>
+    <div class="hero-img">
+      <img src="pic.png" alt="Hero Image" />
+    </div>
+  </section>
+
+  <section class="courses" id="courses">
+    <div class="card">
+      <img src="html.webp" alt="HTML Course" />
+      <div class="card-content">
+        <h3>HTML Basics</h3>
+        <p>Duration: 7 Days</p>
+        <p>Price: Free</p>
+        <div>
+          <button>Enroll Now</button>
+          <a href="email-template.html" target="_blank"><button>View Course</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="css.webp" alt="CSS Course" />
+      <div class="card-content">
+        <h3>CSS Styling</h3>
+        <p>Duration: 7 Days</p>
+        <p>Price: ₹499</p>
+        <div>
+          <button>Enroll Now</button>
+          <a href="email-template.html" target="_blank"><button>View Course</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="javascript.webp" alt="JS Course" />
+      <div class="card-content">
+        <h3>JavaScript Essentials</h3>
+        <p>Duration: 7 Days</p>
+        <p>Price: ₹699</p>
+        <div>
+          <button>Enroll Now</button>
+          <a href="email-template.html" target="_blank"><button>View Course</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@codecamp.com</p>
+  </section>
+
+  <section class="signin" id="signin">
+    <h2>Sign In</h2>
+    <p>Feature coming soon!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
